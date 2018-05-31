@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
     private TextView pointNum;
     private BezierView bezier;
 
-    private int pointNums = 2;
+    private int pointNums = 3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
     @Override
     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
         if (!fromUser) return;
-        pointNums = progress + 2;
+        pointNums = progress + 3;
         pointNum.setText(String.valueOf(pointNums));
         bezier.setmPointsNumber(pointNums);
     }

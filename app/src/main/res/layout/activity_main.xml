@@ -29,7 +29,7 @@
         app:layout_constraintBottom_toTopOf="@+id/hint"/>
     <TextView
         android:id="@+id/point_num"
-        android:text="2"
+        android:text="3"
         android:textColor="@color/colorAccent"
         android:textStyle="bold"
         android:textSize="14sp"
