@@ -21,7 +21,7 @@
         android:id="@+id/simple_demo"
         android:text="切换到简单演示"
         android:textColor="@color/colorAccent"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="50dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -63,7 +63,7 @@
 
     <com.sung.bezierdemo.BezierView
         android:id="@+id/bezier"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="75dp"
         android:layout_marginBottom="60dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
